@@ -21,22 +21,22 @@ const Navbar = () => {
         <ul className="nav-menu">
 
         <li onClick={() => { setMenu("shop") }}>
-  <Link to="/">Shop</Link>
+  <Link style={{textDecoration:"none"}} to="/">Shop</Link>
   {menu === "shop" ? <hr/> : <></>}
 </li>
 
 <li onClick={() => { setMenu("Men") }}>
-  <Link to="/Men">Men</Link>
+  <Link style={{textDecoration:"none"}} to="/Men">Men</Link>
   {menu === "Men" ? <hr/> : <></>}
 </li>
 
 <li onClick={() => { setMenu("Women") }}>
-  <Link to="/Women">Women</Link>
+  <Link style={{textDecoration:"none"}} to="/Women">Women</Link>
   {menu === "Women" ? <hr/> : <></>}
 </li>
 
 <li onClick={() => { setMenu("kids") }}>
-  <Link to="/Kids">Kids</Link>
+  <Link style={{textDecoration:"none"}} to="/Kids">Kids</Link>
   {menu === "kids" ? <hr/> : <></>}
 </li>
 
